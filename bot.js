@@ -38,7 +38,5 @@ module.exports.run = async (bot, message, args) => {
     canal.send(embed);
 }
 
-
-
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
